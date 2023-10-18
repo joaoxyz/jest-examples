@@ -1,4 +1,4 @@
-const { sub, getRandomFloat } = require('./ex3-parameters.js');
+const { sub, getRandomFloat } = require('../examples/ex3-parameters.js');
 
 // Teste parametrizado
 test.concurrent.each([[10, 2, 8], [1, 5, -4]])('Subtract %i and %i', 

@@ -1,4 +1,4 @@
-const { Stack } = require('./ex1-stack.js');
+const { Stack } = require('../examples/ex1-stack.js');
 
 beforeEach(() => {
     stack = new Stack;

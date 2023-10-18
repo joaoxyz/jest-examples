@@ -1,4 +1,4 @@
-const { forEach } = require('./ex2-mocks.js');
+const { forEach } = require('../examples/ex2-mocks.js');
 
 const mockFunc = jest.fn(x => x + 1);
 
