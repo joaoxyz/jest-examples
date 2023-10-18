@@ -16,13 +16,18 @@ class Stack {
         return this.#data.push(x);
     }
 
+    isEmpty() {
+        return this.size == 0;
+    }
+
     get size() {
         return this.#data.length;
     }
 
-    isEmpty() {
-        return this.size == 0;
+    get topItem() {
+        return this.#data[this.#data.size-1];
     }
+
 }
 
 module.exports = { Stack };
