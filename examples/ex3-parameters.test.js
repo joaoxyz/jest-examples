@@ -1,5 +1,6 @@
 const { sub, getRandomFloat } = require('./ex3-parameters.js');
 
+// Teste parametrizado
 test.concurrent.each([[10, 2, 8], [1, 5, -4]])('Subtract %i and %i', 
     async (a, b, expected) => {
         expect(sub(a, b)).toBe(expected);
